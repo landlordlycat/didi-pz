@@ -122,7 +122,7 @@ const paginationData = reactive({
   pageNum: 1,
   pageSize: 2
 })
-const tableData = ref<CompanionListData>({
+const tableData = ref<CompanionListData<CompanionParams>>({
   list: [],
   total: 0
 })
