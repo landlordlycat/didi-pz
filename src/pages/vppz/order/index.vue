@@ -37,10 +37,10 @@
           <div>
             <el-popconfirm v-if="row.trade_state === '已取消'" confirm-button-text="是" cancel-button-text="否" icon="InfoFilled" icon-color="#626AEF" title="是否确认完成?" @confirm="onConfirm(row.out_trade_no)">
               <template #reference>
-                <el-button link>服务完成</el-button>
+                <el-button type="primary" link>服务完成</el-button>
               </template>
             </el-popconfirm>
-            <el-button v-else link disabled>暂无服务</el-button>
+            <el-button v-else type="primary" link disabled>暂无服务</el-button>
           </div>
         </template>
       </el-table-column>

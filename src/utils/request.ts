@@ -5,7 +5,7 @@ import { State } from '@/content/state'
 import { getItem, removeItem } from '@/utils/localStorage'
 import router from '@/router'
 const instance = axios.create({
-  baseURL: 'https:/v3pz.itndedu.com/v3pz',
+  baseURL: '/v3pz',
   timeout: 10000
 })
 const whitelist = ['/get/code', '/login', '/user/authentication']
