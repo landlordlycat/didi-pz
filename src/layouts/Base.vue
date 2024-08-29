@@ -20,6 +20,8 @@
 
 <script setup lang="ts" generic="T">
 import Aside from './Aside/index.vue'
+import PanelHead from '@/components/PanelHead.vue'
+
 import Header from './Header/index.vue'
 </script>
 <style lang="postcss" scoped>
