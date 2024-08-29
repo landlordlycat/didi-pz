@@ -1,0 +1,34 @@
+{
+  "starttime": "2024-09-29",
+  "client": {
+      "id": 291,
+      "name": "admin",
+      "mobile": "18786224211"
+  },
+  "order_start_time": 1724894569000,
+  "trade_state": "已取消",
+  "time_end": "",
+  "service_state": "未接单",
+  "serviceImg": "http://159.75.169.224/uploads/20231105/90ded71dd1868829b08dae540412c039.jpeg",
+  "out_trade_no": "O-RPjAB00182",
+  "receiveAddress": "2",
+  "hospital_id": 4,
+  "hospital_name": "协和医院",
+  "companion_id": 452,
+  "price": "0.5",
+  "demand": "4",
+  "transaction_id": "",
+  "user_id": "291",
+  "code_url": "weixin://wxpay/bizpayurl?pr=2wPUOCGz1",
+  "service_name": "就医陪诊（尊享）",
+  "tel": "3",
+  "paidPrice": "0",
+  "companion": {
+      "id": 452,
+      "name": "测试1",
+      "avatar": "http://159.75.169.224:5500/4.jpeg",
+      "sex": "2",
+      "age": 18,
+      "mobile": "15343434444"
+  }
+}
