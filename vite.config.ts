@@ -12,7 +12,6 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 import Icons from 'unplugin-icons/vite'
 import IconsResolver from 'unplugin-icons/resolver'
 
-import Inspect from 'vite-plugin-inspect'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
@@ -39,8 +38,7 @@ export default defineConfig({
     }),
     Icons({
       autoInstall: true
-    }),
-    Inspect()
+    })
   ],
   resolve: {
     alias: {
